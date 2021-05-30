@@ -1,0 +1,20 @@
+.pageData_container {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.pageData_Album {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+.pageData_Title {
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   text-align: center;
+}
